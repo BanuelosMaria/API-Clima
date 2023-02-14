@@ -12,7 +12,7 @@ INGENIERÍA EN SISTEMAS COMPUTACIONALES
 <p><b>
 Materia: Programación Web
 </p>
-*Docente Facilitador: Dra. Daniela Adriana Sánchez Vizcarra*
+Docente Facilitador: Dra. Daniela Adriana Sánchez Vizcarra
 
 Investigacion API: OpenWeather
 
@@ -61,6 +61,7 @@ Explicación de la practica
 ---
 HTML
 [Capturas]
+<br>
 JS
 [CAPTURAS]
 
