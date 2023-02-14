@@ -14,7 +14,7 @@ Materia: Programación Web
 </p>
 Docente Facilitador: Dra. Daniela Adriana Sánchez Vizcarra
 
-Investigacion API: OpenWeather
+Investigacion API: Spotify Web API
 
 <p> Integrantes del equipo 5: </p>
 Figueroa Parra Francisco Manuel  #19211639
@@ -27,35 +27,30 @@ Grupo: SC8A
 ---
 El uso de una API hoy en día es...
 
-**OpenWeather**
+**Spotify Web Api**
 ---
 <br>
-Haz una sola llamada a la API y consigue toda la información esencial del clima para una ubicación específica en esta nueva y novedosa actualización de OpenWeather llamada One Call API 3.0.
+Basados en principios REST simples, los puntos finales de la API web de Spotify devuelven metadatos JSON sobre artistas musicales, álbumes y pistas, directamente desde el catálogo de datos de Spotify.
 
-Leonardo de Vinci dijo una vez que “ la simplicidad es la máxima sofisticación ”.
+La API web también brinda acceso a datos relacionados con el usuario, como listas de reproducción y música que el usuario guarda en la biblioteca Your Music . Dicho acceso se habilita mediante autorización selectiva, por parte del usuario.
 
-OpenWeather proporciona esta sofisticación a través de la capacidad de recuperar instantáneamente información meteorológica esencial utilizando solo una simple llamada API. Usando solo la API 3.0 de OpenWeather One Call, se puede obtener una amplia gama de información meteorológica precisa y detallada de solo una API. Si su requisito es para los datos de pronóstico, entonces la API 3.0 de One Call puede proporcionar granularidad diminuta durante una hora, cada hora durante 48 horas y diariamente durante 8 días. Si simplemente está buscando el clima actual, One Call API 3.0 es perfecto para usted. También puede usar One Call API 3.0 para obtener alertas meteorológicas nacionales. También hemos ampliado la funcionalidad de nuestra API 1.0 de One Call al proporcionar datos meteorológicos históricos que se remontan a más de 40 años, a diferencia de los cinco días para nuestra API 1.0 de One Call.
+La dirección base de la API web es https://api.spotify.com . La API proporciona un conjunto de puntos finales , cada uno con su propia ruta única. Para acceder a datos privados a través de la API web, como perfiles de usuario y listas de reproducción, una aplicación debe obtener el permiso del usuario para acceder a los datos. La autorización se realiza a través del servicio de cuentas de Spotify.
 
-Los usuarios pueden monitorear el uso de su API en su cuenta personal y establecer límites de uso para evitar la posibilidad de pagar cargas altas impredecibles.
-
--   Clima Actual
+*Peticiones*
+La API web de Spotify se basa en los principios REST . Se accede a los recursos de datos a través de solicitudes HTTPS estándar en formato UTF-8 a un punto final de API. Siempre que sea posible, Web API utiliza verbos HTTP apropiados para cada acción:
     
--   Clima por minuto durante una hora
+MÉTODO	     |      ACCIÓN
     
--   Clima por hora durante 48 horas
+GET	         |   Recupera recursos
     
--   Clima Diario durante 8 horas.
+POST         |   Crea recursos
     
--   Alertas Nacionales de Clima
+PUT          |   Cambia y/o reemplaza recursos o colecciones
     
--   Historial de Clima por hasta 40 años (máximo, 1 de enero de 1979).
-Esta API versátil se puede utilizar en una amplia variedad de escenarios:
+DELETE       |   Elimina recursos
+    
 
-La industria de seguros puede obtener acceso instantáneo para reclamar la validación de la información meteorológica histórica para cualquier ubicación global, incluidos los valores de velocidad y dirección del viento, temperatura, visibilidad, amanecer y puesta del sol, lluvia, nieve e incluso ráfaga de viento.
 
-Las aplicaciones móviles pueden utilizar la variedad de datos suministrados por One Call API 3.0 para permitir a sus usuarios acceder a diferentes conjuntos de datos y alertas, además de aprovechar la capacidad de la API para excluir ciertos conjuntos de datos para reducir la respuesta de datos solo a lo que realmente se requiere.
-
-*Leonardo estaría impresionado.*
 
 Explicación de la practica
 ---
