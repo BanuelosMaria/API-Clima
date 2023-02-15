@@ -25,7 +25,7 @@ Grupo: SC8A
 
 **Introducción**
 ---
-El uso de una API hoy en día es...
+Se le conoce como API a los mecanismos que permiten a dos componentes de software comunicarse entre si mediante un conjunto de definiciones y prologos. Siendo la API como el servidor y el usuario el cliente quien pide una informacion dependiendo de la orden que llegue a mandar, asi que con el objetivo de esta practica, se usara la API de spotify para poder tomar los datos de esta.
 
 **Spotify Web Api**
 ---
@@ -62,3 +62,4 @@ JS
 
 Conclusión
 ---
+La integración de API permite maximizar sus operaciones al tiempo que brinda un servicio al cliente de forma eficiente dejando que el usuario pueda encontrar la informacion que deseaba. Debido a ello el uso de las API es importante incluso en una empresa o en el momento de desear crear una aplicacion apoyandose de estas mismas API.
