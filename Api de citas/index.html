@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Citas aleatorias</title>
+        <!─manda a llamar al indez.js"─>
+        <script src="index.js"></script>
+        <center><h1>Llamada de API (fetch)</h1></center>
+    <link rel="stylesheet" href="style.css">
+
+    </head> 
+    <body>
+        <!─Tablita no mas para que se vea chido"─>
+        <table border="1" style="margin: 0 auto;">
+            <tr>
+                <td width="150"> <marquee behavior="slide" direction="up"><img src="https://1.bp.blogspot.com/-i79CSoRrOE4/W-nbq-c2k-I/AAAAAAAAbb8/WxBE1rDfgkgb_vJFlX5E187-29WRKiqNwCLcBGAs/w1200-h630-p-k-no-nu/Libros.png" width="100" height="50" /> </marquee> </td>
+                <td width="761"> <center> <strong> <big> <font face="Times New Roman" color="#000000" size="+2"> <marquee behavior="slide" scrollamount="20"> Citas</marquee></font></big></strong></center> </td> 
+            </tr>
+        </table>
+        <br>
+        <!─Division de contenido"─>
+        <div style="text-align: center;" class = "contenido">
+            <!─Division de citas"─>
+            <div style="text-align: center;" class ="caja de citas" >
+                <table border="2" style="margin: 0 auto;">
+                <tr>
+                    <td width="150">Su cita del dia es: </td>
+                    <td width="250"><p id="cita">" ... "</p></td>
+                </tr>
+                <tr>
+                    <td>Autor: </td>
+                   <td width="250"><small id="autor">" ... "</small></td> 
+                </tr>
+                <tr>
+                    <td>Se agregó el: </td>
+                    <td width="250"> <p id="dateAdded">" ... "</p></td>
+                </tr>
+                <tr>
+                    <td>Se modificó el: </td>
+                    <td width="250">  <p id="dateModified">" ... "</p></td>
+                </tr>
+            </table>
+            </div>
+
+                <br>
+                <!─crea botton llamado "btn"─>
+                <button id ="btn"> <font face="Times New Roman" color="#0A951E" size="+1">Su cita es...</font></button>
+        </div>
+                <!─Manda a llamar a la funcion "tomarcita"─>               
+                <script>btn.addEventListener("click", tomarcita);</script> 
+                <div style="text-align: left;">
+                    <br><br>
+                    <img src="https://i.pinimg.com/originals/93/97/7a/93977aa7bafacb886661bc8f2246e38d.gif" width="350" height="250">
+                </div>
+    </body>
+</html>
